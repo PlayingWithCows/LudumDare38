@@ -262,7 +262,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d326e52ecea66e84296a351af7565b85, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationSpeed: 0.05
+  rotationSpeed: 0
 --- !u!1 &496196384 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 1304456890812244, guid: e940f2bd92ad2914a9476998f49457bd,
@@ -284,7 +284,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d326e52ecea66e84296a351af7565b85, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationSpeed: 0.29
+  rotationSpeed: 0
 --- !u!1001 &678369263
 Prefab:
   m_ObjectHideFlags: 0
@@ -332,78 +332,51 @@ Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 496196385}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 4750799085741226, guid: 53d8b2e96dd6301489b8e7abf8ea6627, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 52.8
+      value: -253.71431
       objectReference: {fileID: 0}
     - target: {fileID: 4750799085741226, guid: 53d8b2e96dd6301489b8e7abf8ea6627, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 5.9
+      value: 104.46
       objectReference: {fileID: 0}
     - target: {fileID: 4750799085741226, guid: 53d8b2e96dd6301489b8e7abf8ea6627, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -20.6
+      value: 2339.2815
       objectReference: {fileID: 0}
     - target: {fileID: 4750799085741226, guid: 53d8b2e96dd6301489b8e7abf8ea6627, type: 2}
       propertyPath: m_LocalRotation.x
-      value: -0.45571613
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4750799085741226, guid: 53d8b2e96dd6301489b8e7abf8ea6627, type: 2}
       propertyPath: m_LocalRotation.y
-      value: 0.0031440482
+      value: -0.99929935
       objectReference: {fileID: 0}
     - target: {fileID: 4750799085741226, guid: 53d8b2e96dd6301489b8e7abf8ea6627, type: 2}
       propertyPath: m_LocalRotation.z
-      value: -0.015474873
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4750799085741226, guid: 53d8b2e96dd6301489b8e7abf8ea6627, type: 2}
       propertyPath: m_LocalRotation.w
-      value: 0.88998514
+      value: -0.03742858
       objectReference: {fileID: 0}
     - target: {fileID: 4750799085741226, guid: 53d8b2e96dd6301489b8e7abf8ea6627, type: 2}
       propertyPath: m_RootOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 114526609814209642, guid: 53d8b2e96dd6301489b8e7abf8ea6627,
         type: 2}
       propertyPath: planetYouStandOn
       value: 
       objectReference: {fileID: 496196384}
-    - target: {fileID: 54100736753069318, guid: 53d8b2e96dd6301489b8e7abf8ea6627,
-        type: 2}
-      propertyPath: m_IsKinematic
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114997929472819822, guid: 53d8b2e96dd6301489b8e7abf8ea6627,
+    - target: {fileID: 114966699307816732, guid: 53d8b2e96dd6301489b8e7abf8ea6627,
         type: 2}
       propertyPath: gravity
       value: 9
       objectReference: {fileID: 0}
-    - target: {fileID: 4750799085741226, guid: 53d8b2e96dd6301489b8e7abf8ea6627, type: 2}
-      propertyPath: m_LocalScale.y
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents:
-    - {fileID: 136404071308288618, guid: 53d8b2e96dd6301489b8e7abf8ea6627, type: 2}
+    - {fileID: 114997929472819822, guid: 53d8b2e96dd6301489b8e7abf8ea6627, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 53d8b2e96dd6301489b8e7abf8ea6627, type: 2}
   m_IsPrefabParent: 0
---- !u!1 &1129374753 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1399273094826816, guid: 53d8b2e96dd6301489b8e7abf8ea6627,
-    type: 2}
-  m_PrefabInternal: {fileID: 1129374752}
---- !u!136 &1129374754
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1129374753}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 0.5
-  m_Height: 2
-  m_Direction: 1
-  m_Center: {x: 0, y: 1, z: 0}
